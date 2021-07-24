@@ -31,6 +31,7 @@ body {
 }
 
 section {
+  background-color: aquamarine;
   overflow: hidden;
 }
 
