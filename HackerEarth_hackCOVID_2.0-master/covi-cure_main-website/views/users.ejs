@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DONORS AND NEEDY</title>
+    <link rel="stylesheet" href="css/users.css">
+  </head>
+  <body>
+    <% users.forEach(function(eachUser){ %>
+      <p><%= eachUser.fullname %></p>
+      <p><%= eachUser.email %></p>
+      <p><%= eachUser.add %></p>
+      <p><%= eachUser.category %></p>
+      <p><%= eachUser.vaccinated %></p>
+      <p><%= eachUser.msg %></p>
+    <% }) %>
+  </body>
+</html>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-IN</title>
-    <link rel="stylesheet" href="Sign-Up.css">
+    <link rel="stylesheet" href="css/Sign-Up.css">
 </head>
 <body>
     <div class="button-body"></div>
@@ -13,54 +13,54 @@
     <section class="contact report" id="contact">
 
         <div class="container min-vh-100">
-    
+
             <div class="row justify-content-center">
-    
+
                 <h1 class="heading"><span>'</span> SIGN UP <span>'</span></h1>
-    
+
                 <div class="col-md-10" data-aos="flip-down">
-    
-                    <form action="">
-    
+
+                    <form action="/signup" method="post">
+
                         <div class="inputBox">
-                            <input type="text" placeholder="Full Name">
-                            <input type="number" placeholder="Phone">
+                            <input type="text" placeholder="Full Name" name="fname">
+                            <input type="number" placeholder="Phone" name="num">
                         </div>
-    
+
                         <div class="inputBox">
-                            <input type="email" placeholder="E-Mail">
-                            <input type="text" placeholder="Address">
-                            <select name="" id="">
+                            <input type="email" placeholder="E-Mail" name="mail">
+                            <input type="text" placeholder="Address" name="add">
+                            <select name="category" id="">
                                 <option value="" disabled selected>Donor/Needy</option>
                                 <option value="Donor">Donor</option>
                                 <option value="Needy">Needy</option>
                             </select>
-                            <select name="" id="">
+                            <select name="vaccinated" id="">
                                 <option value="" disabled selected>Vaccinated?</option>
-                                <option value="Donor">Yes</option>
-                                <option value="Needy">No</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
                             </select>
                         </div>
-    
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message ( Optional )"></textarea>
+
+                        <textarea name="msg" id="" cols="30" rows="10" placeholder="Message ( Optional )"></textarea>
                          <div class="footer">
                             <a href="https://chat.whatsapp.com/EiV0qs9oiLz8CHblUfIG9l">
-                                <img id="whatsapp" src="whatsapp.png">
+                                <img id="whatsapp" src="images/whatsapp.png">
                                 <img>
                             </a>
 
                         <input type="submit" name="" id="" value="SIGN UP" class="button">
-                        <a href="https://t.me/covicure"><img id="telegram" src="telegram.png"><img></a>
+                        <a href="https://t.me/covicure"><img id="telegram" src="images/telegram.png"><img></a>
                         </div>
                     </form>
-            
-    
+
+
                 </div>
-    
+
             </div>
-    
+
         </div>
-    
+
     </section>
 
     <script src="SignUp.js" defer></script>
