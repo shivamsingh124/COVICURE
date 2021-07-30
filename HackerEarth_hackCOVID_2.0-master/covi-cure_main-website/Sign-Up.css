@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap'); :root {
+:root {
     --blue: #009090;
     --black: #354046;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 section {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .button {
@@ -46,7 +46,7 @@ section {
     position: relative;
     z-index: 0;
     overflow: hidden;
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
 
 .button::before {
@@ -72,8 +72,8 @@ section {
 .heading {
     text-align: center;
     font-size: 4rem;
-    padding: 0;
-    padding-top: 3rem;
+    margin-top: 11px;
+    padding-top: 0rem;
     color: var(--black);
 }
 
@@ -310,7 +310,7 @@ header .fa-bars {
 
 .contact form {
     text-align: center;
-    margin: 50px;
+    margin: 30px;
 }
 
 .contact form .inputBox {
@@ -392,6 +392,11 @@ header .fa-bars {
 
 .footer {
     background: var(--black);
+    display: flex;
+    justify-content: space-evenly;
+    width: 526px;
+    position: absolute;
+    left: 174px;
 }
 
 .footer p {
@@ -509,13 +514,31 @@ header .fa-times {
 
 .report {
     position: absolute;
-    top: 12vh;
+    top: 8vh;
     left: 19vw;
-    height: 75vh;
+    height: 101vh;
     width: 60vw;
 }
 
 .button-body {
-    height: 100vh;
+    height: 120vh;
     background-color: black;
+}
+
+#whatsapp {
+    /* position: relative; */
+    height: 50px;
+    width: 50px;
+    /* left: 15vw; */
+    /* bottom: 20px; */
+    margin: 1rem 0;
+}
+
+#telegram {
+    /* position: absolute; */
+    height: 50px;
+    width: 50px;
+    /* bottom: 20px; */
+    margin: 1rem 0;
+    /* right: 15vw; */
 }
