@@ -61,13 +61,13 @@ https://covicure.herokuapp.com/<br/>
 ---
 ## Screenshots
 ### Homepage
-![Homepage Snap](https://drive.google.com/file/d/1pRNTxiLDaEBOhit315mJJT9Q0NnqLJG5/view?usp=sharing)
+#[Homepage Snap](https://drive.google.com/file/d/1pRNTxiLDaEBOhit315mJJT9Q0NnqLJG5/view?usp=sharing)
 ### Functionalities
-![Dashboard Snap](https://drive.google.com/file/d/1FhnvCLd0O8CmRoxvoz6vUkceB6IwoFvN/view?usp=sharing)
+#[Dashboard Snap](https://drive.google.com/file/d/1FhnvCLd0O8CmRoxvoz6vUkceB6IwoFvN/view?usp=sharing)
 ### Invoice Receipt
-![Invoice Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/invoice.png)
+#[Invoice Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/invoice.png)
 ### Main Page
-![Page Snap](https://drive.google.com/file/d/1QXtVYdFNVs_pzlO-mfEjZPTx-ZXGv78t/view?usp=sharing)
+#[Page Snap](https://drive.google.com/file/d/1QXtVYdFNVs_pzlO-mfEjZPTx-ZXGv78t/view?usp=sharing)
 ---
 ## Functions
 ### Admin
