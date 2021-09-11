@@ -1,6 +1,6 @@
 # CoviCure Real-Time Chat Application
 
-### [Site is Live](https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/)
+### [Site is Live](https://covicure.herokuapp.com/)
 
 
 Video Link of Project Working :<br/> 
@@ -11,7 +11,7 @@ Video Link of Project Working :<br/>
 https://docs.google.com/presentation/d/1d3MucTDWLTPeOp9L25mnyVE_nBvDekIjZvipGuIv4ek/edit?usp=sharing 
 
 * Detailed Explaination of Our Project Idea:  
-                1. Our idea is about creating a supply chain optimisation as well as a resource management system using a full-fledged web application to address the demand of Covid resources.<br/> 
+                1. Our idea is about creating a supply chain optimisation as well as a resource management system using a full-fledged web application to address the demand of Covid resources.It will scrap Data of donors and help Seekers from twitter and store data in JSON file which gets stored in MongoDb database.<br/> 
                 2. It will serve for urgent medical essentials and services such as availability of hospital beds, oxygen cylinders, blood & plasma donors, medicines, etc.  
                 3. Using our Chat Application, we aim to create a helping community in these harsh times.<br/> 
 
@@ -24,8 +24,8 @@ https://docs.google.com/presentation/d/1d3MucTDWLTPeOp9L25mnyVE_nBvDekIjZvipGuIv
 
 * How it Works? :<br/> 
                 1. Web Scraping is used to collect data of both the willing donors and the people in need.  
-                2. Using Automation, an automated message is sent to all the users, containing the link of our Chat Application. <br/> 
-                3. Using our Chat application, people can communicate with each other in real-time. Their essential data is also stored securely. <br/> 
+                2. Using Automation, an automated message is sent to all the users, containing the link of ourHosted website https://covicure.herokuapp.com/. <br/> 
+                3. Using our Chat application, people can communicate with each other in real-time to exchange resources. Their essential data is also stored securely. <br/> 
                 4. Finally, our CoviCure Website displays the data of all the donors. It also addresses Supply Chain Optimisation and Resource Management Services such as Nearby Oxygen Refill Centres and Hospital Beds availability. <br/>  
 
 * Real-Time Usage of Project : <br/> 
@@ -42,7 +42,7 @@ https://docs.google.com/presentation/d/1d3MucTDWLTPeOp9L25mnyVE_nBvDekIjZvipGuIv
 ![Demo Video](https://github.com/Trijal-Bhardwaj/covicure_chat_application/blob/master/CoviCureProjectDemo.gif)
 
 * Project is Live At:<br/> 
-https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/<br/> 
+https://covicure.herokuapp.com/<br/> 
 
 * Step-By-Step Procedure to Run this Project on Your Local Machine :<br/> 
             Step 1 : Fork this repository or else use git clone, to clone the repository on your local machine<br/> 
@@ -61,13 +61,13 @@ https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/<br/>
 ---
 ## Screenshots
 ### Homepage
-![Homepage Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/homepage.png)
-### Admin Dashboard
-![Dashboard Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/admin_dashboard.png)
+![Homepage Snap](https://drive.google.com/file/d/1pRNTxiLDaEBOhit315mJJT9Q0NnqLJG5/view?usp=sharing)
+### Functionalities
+![Dashboard Snap](https://drive.google.com/file/d/1FhnvCLd0O8CmRoxvoz6vUkceB6IwoFvN/view?usp=sharing)
 ### Invoice Receipt
 ![Invoice Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/invoice.png)
-### Doctors List
-![Doctor Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/admin_doctor.png)
+### Main Page
+![Page Snap](https://drive.google.com/file/d/1QXtVYdFNVs_pzlO-mfEjZPTx-ZXGv78t/view?usp=sharing)
 ---
 ## Functions
 ### Admin
@@ -111,5 +111,7 @@ py manage.py runserver
 - Now enter following URL in Your Browser Installed On Your Pc
 ```
 http://127.0.0.1:8000/
-```
+
+```### Shivam Singh 
+### Connect 📧https://shivam-singh-portfolio.netlify.app/
 
